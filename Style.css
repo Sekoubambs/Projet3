@@ -1,0 +1,86 @@
+
+
+body {
+    background-color: aquamarine;
+}
+
+h1{
+    font-weight: bold; justify-content: center; display: flex; font-size: xx-large;
+}
+th{
+    color: red;
+}
+
+div {
+    justify-content: center; align-items: center; display: flex; vertical-align: center;
+}
+.image:hover{
+transform: rotate(90deg); transition: transform 0.3s;
+}
+
+.display {
+    justify-content: space-between;
+}
+
+
+
+@media (max-width:600px) {
+    .hidden{
+        visibility: visible;
+    }
+    header,h2,h3,li,table,th,td,tr,footer {display: none;} 
+   
+
+    }
+
+    @media screen and (min-width: 1000px){
+    .Pres {background-color: yellow;}
+    .white{display: none;}
+    .hidden{visibility: hidden;}
+    }
+
+    @media (max-width:1000px) and (min-width: 600px) {
+    .Pres h1,h2,li {display : none}
+    .white{display: none;}
+    }
+
+   
+.Timage {
+    height: 600px;
+}
+
+.Animated image {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+}
+   
+    
+.Animated image{
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: center;
+  }
+
+    
+
+@keyframes move {
+    0% {
+      transform: translate(0,0);
+    }
+    50% {
+      transform: translate(200px,0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+ }
+
+   
+
+  
+    
+   
